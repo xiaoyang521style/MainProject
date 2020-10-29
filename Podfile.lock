@@ -1,0 +1,26 @@
+PODS:
+  - LoginComponents (0.1.0):
+    - ZYMediator
+  - ZYMediator (0.1.6)
+  - ZYUnderlyingComponents (0.1.2)
+
+DEPENDENCIES:
+  - LoginComponents
+  - ZYMediator
+  - ZYUnderlyingComponents
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LoginComponents
+    - ZYMediator
+  https://github.com/xiaoyang521style/UnderlyingComponents.git:
+    - ZYUnderlyingComponents
+
+SPEC CHECKSUMS:
+  LoginComponents: c67e65fea14bd54b9b65156e49cfb990d1365cf9
+  ZYMediator: d550c232a5342b7aadcdf441942f933a671a4b2d
+  ZYUnderlyingComponents: 0019270b5f5152bfdea4f8f1811fb4bcf90f1bd9
+
+PODFILE CHECKSUM: de08df238a46c296088957d1e11cf84fbc09e6de
+
+COCOAPODS: 1.10.0
