@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "ZYMediator+ZYLoginModule.h"
+#import "ZYMediator+ZYShoppingCartModule.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+- (IBAction)login:(id)sender {
     UIViewController *VC = [[ZYMediator sharedInstance]LoginModule_viewControllerWithParam:@{} callback:^(NSString * _Nonnull result) {
+        NSLog(@"resultA: --- %@", result);
+    }];
+    [self.navigationController pushViewController:VC animated:YES];
+}
+- (IBAction)goshopcart:(id)sender {
+    
+    UIViewController *VC = [[ZYMediator sharedInstance]ShoppingCartModule_viewControllerWithParam:@{} callback:^(id  _Nonnull result) {
         NSLog(@"resultA: --- %@", result);
     }];
     [self.navigationController pushViewController:VC animated:YES];

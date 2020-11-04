@@ -1,4 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-MainProject-MainProjectUITests/Pods-MainProject-MainProjectUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/LoginComponents/LoginComponents.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
 ${BUILT_PRODUCTS_DIR}/ZYMediator/ZYMediator.framework
+${BUILT_PRODUCTS_DIR}/ZYShoppingComponents/ZYShoppingComponents.framework
+${BUILT_PRODUCTS_DIR}/ZYUIComponents/ZYUIComponents.framework
 ${BUILT_PRODUCTS_DIR}/ZYUnderlyingComponents/ZYUnderlyingComponents.framework

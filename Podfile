@@ -6,9 +6,14 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MainProject' do
   # Comment the next line if you don't want to use dynamic frameworks
-  pod 'ZYUnderlyingComponents'
+ 
+  pod 'MJExtension', '~> 3.0.7'
+  pod 'SDWebImage'
   pod 'ZYMediator'
+  pod 'ZYUIComponents'
+  pod 'ZYUnderlyingComponents'
   pod 'LoginComponents'
+  pod 'ZYShoppingComponents'
   use_frameworks!
 
   # Pods for MainProject

@@ -1,26 +1,73 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - LoginComponents (0.1.0):
     - ZYMediator
+  - MJExtension (3.0.17)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
   - ZYMediator (0.1.6)
+  - ZYShoppingComponents (0.1.8):
+    - AFNetworking (~> 2.3)
+    - MJExtension
+    - SDWebImage
+    - ZYMediator
+    - ZYUIComponents
+    - ZYUnderlyingComponents
+  - ZYUIComponents (0.1.0)
   - ZYUnderlyingComponents (0.1.2)
 
 DEPENDENCIES:
   - LoginComponents
+  - MJExtension (~> 3.0.7)
+  - SDWebImage
   - ZYMediator
+  - ZYShoppingComponents
+  - ZYUIComponents
   - ZYUnderlyingComponents
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
     - LoginComponents
+    - MJExtension
+    - SDWebImage
     - ZYMediator
+    - ZYShoppingComponents
+    - ZYUIComponents
   https://github.com/xiaoyang521style/UnderlyingComponents.git:
     - ZYUnderlyingComponents
 
 SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   LoginComponents: c67e65fea14bd54b9b65156e49cfb990d1365cf9
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
   ZYMediator: d550c232a5342b7aadcdf441942f933a671a4b2d
+  ZYShoppingComponents: 09ef7ecfcacf85d0c5ce56b7d2d3251a51166d25
+  ZYUIComponents: 610816ffbd042ec4419730feaad609185144aa15
   ZYUnderlyingComponents: 0019270b5f5152bfdea4f8f1811fb4bcf90f1bd9
 
-PODFILE CHECKSUM: de08df238a46c296088957d1e11cf84fbc09e6de
+PODFILE CHECKSUM: 80e44f26f1638b165212f5fde05682b1405e3ca2
 
 COCOAPODS: 1.10.0
